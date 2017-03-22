@@ -1,6 +1,7 @@
 FROM alpine:3.5
 
 RUN apk add --update --no-cache ca-certificates
+RUN apk add bash
 
 ENV VERSION v2.2.2
 ENV FILENAME helm-${VERSION}-linux-amd64.tar.gz
