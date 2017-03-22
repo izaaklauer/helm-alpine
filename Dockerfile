@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM lachlanevenson/k8s-kubectl
 
 RUN apk add --update --no-cache ca-certificates
 RUN apk add bash
