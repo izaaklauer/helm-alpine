@@ -3,6 +3,7 @@ FROM lachlanevenson/k8s-kubectl
 RUN apk add --update --no-cache ca-certificates
 RUN apk add bash
 RUN apk add perl-mime-base64
+RUN apk add curl
 
 ENV VERSION v2.2.2
 ENV FILENAME helm-${VERSION}-linux-amd64.tar.gz
